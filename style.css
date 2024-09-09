@@ -1,0 +1,185 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: poppins sans-serif;
+
+}
+.body{
+    color: #081b29;
+    background: #080808;
+}
+
+
+
+.navbar{
+    width: 100%;
+    background-color: #081b29;
+    color:aliceblue;
+    
+}
+
+.nav-item{
+    padding-right: 30px;
+    transition: .3s;
+}
+.nav-item:hover{
+    color: #0ef;
+}
+
+.nav-item-H{
+    padding-left: 30px;
+    transition: .3s;
+}
+.nav-item-H:hover{
+    color: #0ef;
+}
+
+.nav-item-s{
+    padding-left: 30px;
+    transition: .3s;
+}
+.nav-item-s:hover{
+    color: #0ef;
+}
+
+
+.content{
+    background-color: #081b29;
+    color: aliceblue;
+    padding-top: 50px;
+}
+
+.content:hover{
+    color: #0ef;
+}
+
+.header{
+    background-color: #0dddba;
+    color: #080808;
+}
+
+.home-content{
+    max-width: 600px;
+    text-decoration: none;
+    position: relative;
+
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: justify;
+    text-decoration: none;
+}
+.home-content h3:nth-of-type(2)
+.home-content h3 span{
+    color: #0ef;
+}
+
+.About{
+    background-color: #080808;
+    color: aliceblue;
+    align-items: center;
+}
+
+.About:hover{
+    color: #0ef;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+}
+
+#Skill{
+    background-color: #080808;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.Skill:hover{
+    color: #0ef;
+}
+
+.sub-title{
+    font-size: 60px;
+
+}
+.sub-title:hover{
+    color: #0ef;
+}
+
+
+.container h2{
+    font-size: 60px;
+}
+.container h2:hover{
+    color: #0ef;
+}
+
+.container {
+    padding: 90px;
+}
+.Services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap:40px
+    margin-top:50px
+}
+
+.Services-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transfore 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+    1px 1px 40px #0053b8f7;
+}
+
+.Services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.Services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.Services-list div a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.Buy-Now{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #3693d6;
+    font-weight: 600;
+    opacity: 0;
+    animation: slidetop is ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef, 
+    0 0 25px #0ef;
+
+}
+
+.container1{
+    background: #080808;
+}
+
+
+
